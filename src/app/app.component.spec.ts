@@ -27,3 +27,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('portfolio app is running!');
   });
 });
+

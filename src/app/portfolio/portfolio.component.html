@@ -1,0 +1,99 @@
+<div
+  class="imgLayer position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center z-2 d-none"
+  (click)="backlayer()"
+>
+<img [src]="imgUrl" alt=""  class="position-absolute z-3">
+</div>
+<div class="portofolio">
+  <div class="container pt-5">
+    <div class="title mt-3">
+      <h2 class="fs-1 text-center fw-bold">PORTFOLIO COMPONENT</h2>
+      <div class="icon d-flex justify-content-center align-items-center">
+        <div class="line"></div>
+        <i class="fas fa-star mx-3"></i>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="row g-5 py-4">
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event) "
+        >
+          <img #img src="../../assets/images/poert1.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event)"
+        >
+          <img src="../../assets/images/port2.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event)"
+        >
+          <img src="../../assets/images/port3.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event)"
+        >
+          <img src="../../assets/images/poert1.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event)"
+        >
+          <img src="../../assets/images/port2.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div
+          class="imgCard rounded-3 overflow-hidden position-relative"
+          (click)="imgClicked($event)"
+        >
+          <img src="../../assets/images/port3.png" class="w-100" alt="" />
+          <div
+            class="layer position-absolute top-50 start-50 translate-middle w-100 h-100 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-plus fa-5x text-white"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+img {
+  width: 250px;
+}
+
+.start
+{
+  background-color: #1abc9c;
+  margin-top: 70px;
+  height: calc(100vh - 100px);
+}

@@ -1,0 +1,64 @@
+<div class="contact">
+  <div class="container pt-5">
+    <div class="title mt-3">
+      <h2 class="fs-1 text-center fw-bold">CONATCT SECTION</h2>
+      <div class="icon d-flex justify-content-center align-items-center">
+        <div class="line"></div>
+        <i class="fas fa-star mx-3"></i>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="mt-5 row g-5" >
+      <div class="col-md-12  ">
+        <div class="position-relative start-50 translate-middle-x w-50">
+          <p class="title-input  p-2 position-absolute " #userName  >User Name :</p>
+          <input
+          (keyup)="isEmpty(inputName.value) ? userName.classList.remove('labelTop') :userName.classList.add('labelTop') "
+          #inputName
+            type="text"
+            class="form-control shadow-none p-2 position-relative z-3  "
+            placeholder="User Name"
+          />
+        </div>
+      </div>
+      <div class="col-md-12  ">
+        <div class="position-relative start-50 translate-middle-x w-50">
+          <p class=" title-input  p-2 position-absolute  " #userAge  >User Age :</p>
+          <input
+          (keyup)="isEmpty(inputAge.value) ? userAge.classList.remove('labelTop') :userAge.classList.add('labelTop') "
+          #inputAge
+            type="text"
+            class="form-control shadow-none p-2 position-relative z-3"
+            placeholder="User Age"
+          />
+        </div>
+      </div>
+       <div class="col-md-12  ">
+        <div class=" position-relative start-50 translate-middle-x w-50">
+          <p class="position-absolute title-input  p-2  " #userEmail  >User Email :</p>
+          <input
+          (keyup)="isEmpty(inputEmail.value) ? userEmail.classList.remove('labelTop') :userEmail.classList.add('labelTop') "
+          #inputEmail
+            type="text"
+            class="form-control shadow-none p-2 position-relative z-3"
+            placeholder="User Email"
+          />
+        </div>
+      </div>
+      <div class="col-md-12  ">
+        <div class="position-relative start-50 translate-middle-x w-50">
+          <p class="position-absolute title-input  p-2  " #userPass  >User Pass :</p>
+          <input
+          (keyup)="isEmpty(inputPass.value) ? userPass.classList.remove('labelTop') :userPass.classList.add('labelTop') "
+          #inputPass
+            type="text"
+            class="form-control shadow-none p-2 position-relative z-3"
+            placeholder="User Password"
+          />
+        </div>
+
+      </div><button class="btn btn-color mt-4 w-auto mx-auto  ">Send Message</button>
+ </div>
+
+  </div>
+</div>

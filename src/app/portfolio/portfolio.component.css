@@ -1,0 +1,38 @@
+.portofolio{
+ min-height: calc(100vh - 100px);
+margin-top:100px;
+}
+.line{
+  height: 4px;
+  width: 80px;
+  background-color: #2c3e50;
+}
+.title{
+  color: #2c3e50;
+}
+.layer{
+  background-color: #1abc9c;
+transition: opacity .5s  ;
+  opacity: 0;
+}
+.imgCard:hover .layer{
+opacity: .8;
+}
+.imgLayer img{
+width: 600px;
+}
+@media only screen and (max-width:768px) {
+  .imgLayer img{
+    width: 400px;
+    }
+
+}
+@media only screen and (max-width:500px) {
+  .imgLayer img{
+    width: 250px;
+    }
+
+}
+
+
+
